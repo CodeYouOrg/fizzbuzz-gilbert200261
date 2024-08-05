@@ -1,2 +1,12 @@
-# add your code here
+numbers = list(range(1, 101))
+
+for num in numbers:
+    if (num %3!=0 and num //5!=0):
+      print(num)
+    if (num % 3==0 and 5==0):
+      print("FizzBuzz")
+    if (num %3==0):
+      print("Fizz")
+    if (num %5==0):
+      print("Buzz")
 
